@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="css/style16.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+ <a class="navbar-brand" href="#">
+ <img src="image/logo.jpeg" width="40" height="40" alt="" style="border-radius: 20%;">
+ </a>
+ <a class="navbar-brand " href="#" style="font-weight: bold;  color: rgb(206, 243, 255);">MOBIXIN</a>
+<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button> -->
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+ <form class="form-inline my-2 my-lg-0 ml-auto">
+<a href="#">
+ <button type="button"  data-bs-toggle="tooltip" data-bs-placement="top" title="Home Vaccination" class="btn btn-danger" style="margin-right: 6vh;" >Coming Soon</button>
+</a>
+<a href="#">
+<button type="button"  data-bs-toggle="tooltip" data-bs-placement="top" title="Quarantine Facility" class="btn btn-danger" style="margin-right: 6vh;" >CUMMING SOON</button>
+</a>
+<a href="/book">
+ <button type="button"  data-bs-toggle="tooltip" data-bs-placement="top" title="Sign in to book" class="btn btn-danger" style="margin-right: 6vh;"  disabled>BOOK AN APPOINTMENT</button>
+</a>
+<a href="/register">
+ <button type="button" class="btn btn-success" >Register/Sign In</button>
+</a>
+
+
+ <form class="login" method="POST" action="/agent">
+ <input type="text" name="fname" placeholder="First name">
+ <input type="text" placeholder="Last name">
+ <input type="text"  name="email" placeholder="email">
+
+ <input type="number" name="age" placeholder="AGE">
+ <input type="text" placeholder="ADDRESS">
+ <input type="number" name="phoneno" placeholder="PHONE no">
+ <input type="text" name="area" placeholder="Area">
+ <input type="text" placeholder="District">
+ <input type="text" placeholder="PINCODE">
+ <input type="text" placeholder="DO YOU HAVE VEHICLE">
+ 
+
+ 
+ <button type="submit" onclick="fun()">Register</button>
+ </form>
+ <script src="js/qr.js"></script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,226 @@
+.navbar {
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgba(48, 169, 195, 1);
+    }
+   
+    .flex-container {
+    padding: 5px;
+    margin: 0;
+   
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+   
+    -webkit-flex-flow: row wrap;
+    justify-content: space-between;
+    /* this make the end divs at sides and equal space between other divs */
+    }
+   
+    .jumbotron {
+    margin: 0px;
+    background-color: rgba(48, 169, 195, 1);
+    }
+   
+    .flex-item {
+    background-image: url(https://images.unsplash.com/photo-1608326389386-0305acbe600f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y292aWQlMjAxOSUyMHZhY2NpbmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-size:cover;
+    padding-top: 5px;
+    border-radius: 30px;
+    width: 350px;
+    height: 520px;
+    margin-top: 10px;
+   
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    }
+    .flex-item-2 {
+    background-image: url(https://images.unsplash.com/photo-1611587266737-cc128ffe2946?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGhvc3BpdGFsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    background-size:cover;
+    padding-top: 5px;
+    border-radius: 30px;
+    width: 350px;
+    height: 520px;
+    margin-top: 10px;
+   
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    }
+    .flex-item-3 {
+    background-image: url(https://images.pexels.com/photos/6519908/pexels-photo-6519908.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size:cover;
+    padding-top: 5px;
+    border-radius: 30px;
+    width: 350px;
+    height: 520px;
+    margin-top: 10px;
+   
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    }
+    .flex-item-1 {
+    /* background: tomato; */
+    padding-top: 5px;
+   border: 4px solid white;
+    width: 350px;
+    height: 120px;
+    margin-top: 10px;
+   
+    line-height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.75em;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 70%;
+   
+    }
+    .flex-item-1:hover{
+    transform: translateY(-10px);
+    }
+    .login {
+    padding-top: 3%;
+    background-color: rgba(48, 169, 195, 1);
+    }
+    
+.navbar{
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgb(96, 223, 252);
+  
+  }
+  .paddingTop {
+    padding-top: 10%;
+
+  }
+
+  .paddingBot {
+    padding-bottom: 10%;
+  }
+
+  .paddingRight {
+    padding-right: 10%;
+  }
+
+  .paddingLeft {
+    padding-left: 10%;
+  }
+
+  .footer {
+    text-align: justify;
+
+  }
+
+  .padding {
+    padding: 10%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+
+    text-align: center;
+    width: 33.33%;
+
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .flex-item-5 {
+    /* background: tomato; */
+    padding-top: 5px;
+   border: 4px white solid;
+    width: 350px;
+    height: 55px;
+    margin-top: 10px;
+   
+    line-height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.75em;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 89%;
+   
+    }
+    .flex-item-5:hover{
+    transform: translateY(-10px);
+    }
+    .flex-item-6 {
+        /* background: tomato; */
+        padding-top: 5px;
+       border: 4px solid white;
+        width: 350px;
+        height: 55px;
+        margin-top: 10px;
+       
+        line-height: 35px;
+        color: white;
+        font-weight: bold;
+        font-size: 0.75em;
+        text-align: center;
+        border-radius: 30px;
+        margin-top: 89%;
+       
+        }
+        .flex-item-6:hover{
+        transform: translateY(-10px);
+        }
+        a{
+            color: white;
+        }

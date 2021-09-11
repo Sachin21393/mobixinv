@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>COWIN APP</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body style="background-color: rgb(156, 223, 245);">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<img src="image/logo.jpeg" width="40" height="40" alt="" style="border-radius: 20%;">
+
+<a class="navbar-brand pad-left" href="#" style="font-weight: bold;  color: rgb(206, 243, 255);">MOBIXIN</a>
+
+
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+ <form class="form-inline my-2 my-lg-0 ml-auto">
+
+<a href="/rehome">
+<button type="button"  class="btn btn-danger" style="margin-left: 70%;" >HOME</button>
+</a>
+
+
+ </form>
+ </div>
+ </nav>
+ <div class="container">
+ 
+ <!-- <h2>Check your nearest vaccination center and slots availability</h2> -->
+ <div class="form-group">
+ <label for="pin">Search By Pin:</label>
+ <input type="number" maxlength="6" class="form-control" id="pin" placeholder="Enter pin" name="pin">
+ </div>
+
+ <button id="searchbtn" class="btn btn-default">Search</button>
+
+ <button id="searchbtn1" class="btn btn-default">Search By District</button>
+
+ <table class="table" id="session">
+ <thead>
+ <tr>
+ <th>Name</th>
+ <th>Pin code</th>
+ <th>Date</th>
+ <th>18+</th>
+ <th>45+</th>
+ </tr>
+ </thead>
+ <tbody>
+ </tbody>
+ </table>
+ </div>
+
+<script src="js/hel.js"></script>
+
+
+</body>
+
+</html>
